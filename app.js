@@ -22,6 +22,6 @@ mongoose.connect(dbConfig.getDbConfigString(), function(err){
 setupController(app);
 apiController(app);
 
-var port = process.env.PORT || 8080;
+var port = Number(process.env.PORT || 8080);
 
 app.listen(port);
