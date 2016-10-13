@@ -1,0 +1,20 @@
+[
+    {
+        "user": "chandan",
+        "todo": "learn nodejs",
+        "isDone": false,
+        "hasAttachment": false
+    },
+    {
+        "user": "chandan",
+        "todo": "learn mongodb",
+        "isDone": false,
+        "hasAttachment": false
+    },
+    {
+        "user": "chandan",
+        "todo": "make todolist app",
+        "isDone": false,
+        "hasAttachment": false
+    }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "todolist-api",
+  "version": "1.0.0",
+  "description": "Todo list api created using node js and mongodb",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chandan Rana",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.3",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.1"
+  }
+}
