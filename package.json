@@ -11,13 +11,13 @@
   "author": "Chandan Rana",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
     "body-parser": "^1.15.2",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "mongoose": "^4.6.3",
-    "nodemon": "^1.11.0"
-  },
-  "dependencies": {
     "cors": "^2.8.1"
   }
 }
