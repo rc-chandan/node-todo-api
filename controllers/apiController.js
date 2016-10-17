@@ -1,9 +1,10 @@
 var Todo = require('../models/todoModel');
+var path = require('path');
 
 module.exports = function(app) {
 
     app.get("/api", function(req, res) {
-        res.send("Welcome to the api navigation page.");
+        res.sendFile(path.join(__dirname + '/../reference.html'));
     });
 
     app.get("/api/todos", function(req, res) {
